@@ -678,6 +678,8 @@
 % Define a special info button
 \newcommand*{\infoButton}[1]{\space\href{#1}{\faInfoCircle}}
 
+% Define a special github button
+\newcommand{\githubButton}[1]{\fancyhref{https://github.com/Samleo8/#1}{\faGithubSquare\acvHeaderIconSep#1}}
 
 %-------------------------------------------------------------------------------
 %                Commands for elements of Cover Letter
